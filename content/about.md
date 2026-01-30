@@ -2,6 +2,7 @@
 title: "About"
 date: 2025-01-30T00:00:00Z
 draft: false
+image: "/images/branding/k0rdent-logo.png"
 ---
 
 **k0rdent** is focused on developing a consistent way to deploy and manage Kubernetes clusters at scale. One way to think of k0rdent is as a "super control plane" designed to manage other Kubernetes control planes. Another way to think of k0rdent is as a platform for Platform Engineering.

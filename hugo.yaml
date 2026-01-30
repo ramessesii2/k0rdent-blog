@@ -22,12 +22,14 @@ excludeFiles:
   - "themes/**/exampleSite/**"
 
 params:
-  description: k0rdent-blog
+  description: "k0rdent is focused on developing a consistent way to deploy and manage Kubernetes clusters at scale. Whether on-premises, in the cloud, or hybrid, k0rdent provides full life-cycle management including provisioning, configuration, and maintenance."
   author:
     name: k0rdent editorial team
   mainSections: posts
   social:
     github: https://github.com/k0rdent
+    slack: https://kubernetes.slack.com/archives/k0rdent
+    Twitter: https://x.com/k0rdent
 
 # Menu configuration
 menu:
@@ -42,7 +44,7 @@ menu:
       pageRef: /about/
       weight: 3
     - name: Contributing
-      url: https://github.com/k0rdent/k0rdent/blob/main/CONTRIBUTING.md
+      url: https://github.com/k0rdent/k0rdent-blog/blob/main/README.md
       weight: 4
 
 # Markup configuration
