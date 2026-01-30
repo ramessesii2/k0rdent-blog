@@ -1,0 +1,27 @@
+<article class="relative group">
+	<a href="{{ .Permalink }}" class="flex flex-row items-center gap-4">
+		<figure class="w-16 h-16 flex-shrink-0 rounded-xl bg-zinc-100 flex items-center justify-center overflow-hidden">
+
+			{{- if .Params.image }}
+
+			  {{- if (strings.HasPrefix .Params.image "http") }}
+
+			  <img class="max-w-full max-h-full object-contain group-hover:scale-105 transition duration-500" src="{{ .Params.image }}" alt="{{ $.Name }}">
+
+			  {{- else }}
+
+				{{- with $imglist := resources.Get .Params.image -}}
+				  {{- $imglist := $imglist.Fit "120x120" -}}
+				  <img class="max-w-full max-h-full object-contain group-hover:scale-105 transition duration-500" src="{{ $imglist.Permalink }}" alt="{{ $.Name }}" width="{{ $imglist.Width }}" height="{{ $imglist.Height }}">
+				{{- end }}
+
+			  {{- end }}
+
+			{{- end }}
+
+		</figure>
+		<div class="flex-1">
+			<h3 class="font-bold group-hover:underline decoration-auto text-sm">{{ .LinkTitle }}</h3>
+		</div>
+	</a>
+</article>
