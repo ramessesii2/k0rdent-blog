@@ -20,7 +20,7 @@ This blog is the community hub for sharing knowledge, tutorials, and insights ab
 - **Kubernetes cluster management** at scale
 - **Platform Engineering** best practices
 - **DevOps and GitOps** workflows
-- **Automation** and reducing operational toil
+- **Automation** and streamlining cluster operations
 - **k0rdent features** and how to use them effectively
 
 ## Get Involved

@@ -5,7 +5,8 @@ author: "k0rdent Team"
 tags: ["announcement", "community"]
 categories: ["news"]
 draft: false
-description: "Introducing the official k0rdent community blog - your go-to resource for Kubernetes cluster management, Platform Engineering, and reducing operational toil."
+slug: "welcome-to-k0rdent-blog"
+description: "Introducing the official k0rdent community blog - your go-to resource for Kubernetes cluster management, Platform Engineering, and scaling infrastructure."
 image: "images/welcome-to-k0rdent-blog/featured.jpg"
 ---
 
